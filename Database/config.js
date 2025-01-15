@@ -7,7 +7,7 @@ module.exports = {
   password: process.env.DB_PASSWORD || '123', // Contraseña de la base de datos
   database: process.env.DB_DATABASE || 'inventario', // Nombre de la base de datos
   port: process.env.DB_PORT || 1433, // Puerto de la base de datos
-  dialect: "mysql", // Dialecto (MySQL, PostgreSQL, etc.)
+  dialect: "mysql2", // Dialecto (MySQL, PostgreSQL, etc.)
   pool: {
     max: 5, // Máximo de conexiones en el pool
     min: 0, // Mínimo de conexiones en el pool
